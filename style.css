@@ -1,16 +1,19 @@
 .topNav {
-  height: 30px;
-  background-color: #708090;
+  height: 3em;
+  background-color: #404040;
   color: #fff;
 }
 .topNav a {
   align-content: left;
   text-align: center;
-  padding: 12px;
+  padding-top: 12px;
+  padding-left: 15px;
   font-size: 18px;
 }
 .topNav-right {
   float: right;
+  padding-top: 12px;
+  padding-right: 15px;
 }
 .form-container {
   height: 200px;
@@ -19,9 +22,30 @@
   justify-content: center;
   line-height: 24px;
 }
+.movie-container {
+  padding-top: 2em;
+}
+.review-container {
+  padding-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+}
 .loginText {
   width: 10em;
 }
 .form {
   width: 10em;
+}
+a:link {
+  color: #fff;
+}
+a:visited {
+  color: #8B008B;
+}
+a:hover {
+  color:#FFD700;
+}
+a:active {
+  color: #FFD700;
 }
